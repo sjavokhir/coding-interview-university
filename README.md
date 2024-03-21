@@ -225,7 +225,7 @@ It's a long plan. It may take you months. If you are familiar with a lot of this
 Everything below is an outline, and you should tackle the items in order from top to bottom.
 
 I'm using GitHub's special markdown flavor, including tasks lists to track progress.
-- [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+  - [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ### If you don't want to use git
 
@@ -241,7 +241,7 @@ Create a new branch so you can check items like this, just put an x in the brack
 
 1. ***Fork the GitHub repo:*** `https://github.com/jwasham/coding-interview-university` by clicking on the Fork button.
 
-   ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
+    ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
 
 1. Clone to your local repo:
 
@@ -289,12 +289,12 @@ Preferably the language would be the same, so that you only need to be proficien
 When I did the study plan, I used 2 languages for most of it: C and Python
 
 * C: Very low level. Allows you to deal with pointers and memory allocation/deallocation, so you feel the data structures
-  and algorithms in your bones. In higher-level languages like Python or Java, these are hidden from you. In day-to-day work, that's terrific,
-  but when you're learning how these low-level data structures are built, it's great to feel close to the metal.
+    and algorithms in your bones. In higher-level languages like Python or Java, these are hidden from you. In day-to-day work, that's terrific,
+    but when you're learning how these low-level data structures are built, it's great to feel close to the metal.
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
     - [The C Programming Language, 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
         - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-          you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
+            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
         - You don't need to go super deep in the book (or even finish it). Just get to where you're comfortable reading and writing in C.
 * Python: Modern and very expressive, I learned it because it's just super useful and also allows me to write less code in an interview.
 
@@ -392,7 +392,7 @@ Choose one:
 - [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
 - [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
-  - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
+        - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
 ## Don't Make My Mistakes
 
@@ -481,9 +481,9 @@ Each day, take the next subject in the list, watch some videos about that subjec
 of that data structure or algorithm in the language you chose for this course.
 
 You can see my code here:
-- [C](https://github.com/jwasham/practice-c)
-- [C++](https://github.com/jwasham/practice-cpp)
-- [Python](https://github.com/jwasham/practice-python)
+ - [C](https://github.com/jwasham/practice-c)
+ - [C++](https://github.com/jwasham/practice-cpp)
+ - [Python](https://github.com/jwasham/practice-python)
 
 You don't need to memorize every algorithm. You just need to be able to understand it enough to be able to write your own implementation.
 
@@ -579,7 +579,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - ### Arrays
     - [X] About Arrays:
-        - [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
+    	- [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
         - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
         - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
@@ -612,20 +612,20 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - ### Linked Lists
     - [ ] Description:
-        - [ ] [Linked Lists CS50 Harvard University](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - this builds the intuition.
+    	- [ ] [Linked Lists CS50 Harvard University](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - this builds the intuition.
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-      - not the whole video, just portions about Node struct and memory allocation
+            - not the whole video, just portions about Node struct and memory allocation
     - [ ] Linked List vs Arrays:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Gotcha: you need pointer to pointer knowledge:
-      (for when you pass a pointer to a function that may change the address where that pointer points)
-      This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+        (for when you pass a pointer to a function that may change the address where that pointer points)
+        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
     - [ ] Implement (I did with tail pointer & without):
         - [ ] size() - returns the number of data elements in the list
@@ -666,7 +666,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - full()
     - [ ] Cost:
         - a bad implementation using a linked list where you enqueue at the head and dequeue at the tail would be O(n)
-          because you'd need the next to last element, causing a full traversal of each dequeue
+            because you'd need the next to last element, causing a full traversal of each dequeue
         - enqueue: O(1) (amortized, linked list and array [probing])
         - dequeue: O(1) (linked list and array)
         - empty: O(1) (linked list and array)
@@ -715,7 +715,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
-          [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+            [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
         - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
         - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
         - [ ] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
@@ -723,7 +723,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [ ] [The Bit Twiddler](https://bits.stephan-brumme.com/)
         - [ ] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
         - [ ] [Bit Hacks (video)](https://www.youtube.com/watch?v=ZusiKXcz_ac)
-        - [ ] [Practice Operations](https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/)
+		- [ ] [Practice Operations](https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/)
     - [ ] 2s and 1s complement
         - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
         - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
@@ -744,14 +744,14 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [Tree Traversal (video)](https://www.coursera.org/lecture/data-structures/tree-traversal-fr51b)
     - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
         - BFS notes:
-            - level order (BFS, using queue)
-            - time complexity: O(n)
-            - space complexity: best: O(1), worst: O(n/2)=O(n)
+           - level order (BFS, using queue)
+           - time complexity: O(n)
+           - space complexity: best: O(1), worst: O(n/2)=O(n)
         - DFS notes:
             - time complexity: O(n)
             - space complexity:
-              best: O(log n) - avg. height of tree
-              worst: O(n)
+                best: O(log n) - avg. height of tree
+                worst: O(n)
             - inorder (DFS: left, self, right)
             - postorder (DFS: left, right, self)
             - preorder (DFS: self, left, right)
@@ -974,11 +974,11 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [Tail Recursion (video)](https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1)
     - [ ] [5 Simple Steps for Solving Any Recursive Problem(video)](https://youtu.be/ngCos392W4w)
 
-  Backtracking Blueprint: [Java](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))
-  [Python](https://leetcode.com/problems/combination-sum/discuss/429538/General-Backtracking-questions-solutions-in-Python-for-reference-%3A)
+	Backtracking Blueprint: [Java](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))
+	[Python](https://leetcode.com/problems/combination-sum/discuss/429538/General-Backtracking-questions-solutions-in-Python-for-reference-%3A)
 - ### Dynamic Programming
     - You probably won't see any dynamic programming problems in your interview, but it's worth being able to recognize a
-      problem as being a candidate for dynamic programming.
+    problem as being a candidate for dynamic programming.
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
     - [ ] Videos:
@@ -991,7 +991,7 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [Simonson: Dynamic Programming I - Lecture 11 (video)](https://www.youtube.com/watch?v=0EzHjQ_SOeU&index=11&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
         - [ ] [Simonson: Dynamic programming II - Lecture 12 (video)](https://www.youtube.com/watch?v=v1qiRwuJU7g&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=12)
         - [ ] List of individual DP problems (each is short):
-          [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+            [Dynamic Programming (video)](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
     - [ ] Yale Lecture notes:
         - [ ] [Dynamic Programming](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#dynamicProgramming)
     - [ ] Coursera:
@@ -1040,7 +1040,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 - ### NP, NP-Complete and Approximation Algorithms
     - Know about the most famous classes of NP-complete problems, such as the traveling salesman and the knapsack problem,
-      and be able to recognize them when an interviewer asks you them in disguise.
+        and be able to recognize them when an interviewer asks you them in disguise.
     - Know what NP-complete means.
     - [ ] [Computational Complexity (video)](https://www.youtube.com/watch?v=moPtwq_cVH8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=23)
     - [ ] Simonson:
@@ -1138,11 +1138,11 @@ Graphs can be used to represent many problems in computer science, so this secti
         - [ ] [5. Rabin-Karp](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
     - [ ] [Search pattern in a text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-  If you need more detail on this subject, see the "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects).
+    If you need more detail on this subject, see the "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects).
 
 - ### Tries
     - Note there are different kinds of tries. Some have prefixes, some don't, and some use strings instead of bits
-      to track the path
+        to track the path
     - I read through the code, but will not implement
     - [ ] [Sedgewick - Tries (3 videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
@@ -1237,7 +1237,7 @@ Graphs can be used to represent many problems in computer science, so this secti
     - [Grokking the Behavioral Interview (Educative free course)](https://www.educative.io/courses/grokking-the-behavioral-interview):
         - Many times, it’s not your technical competency that holds you back from landing your dream job, it’s how you perform on the behavioral interview.
     - [AlgoMonster (paid course with free content)](https://algo.monster/?utm_campaign=jwasham&utm_medium=referral&utm_content=coding-interview-university&utm_source=github):
-        - The crash course for LeetCode. Covers all the patterns condensed from thousands of questions.
+      - The crash course for LeetCode. Covers all the patterns condensed from thousands of questions.
 
 Mock Interviews:
 - [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview
@@ -1361,8 +1361,8 @@ You're never really done.
 **You can expect system design questions if you have 4+ years of experience.**
 
 - Scalability and System Design are very large topics with many topics and resources, since
-  there is a lot to consider when designing a software/hardware system that can scale.
-  Expect to spend quite a bit of time on this
+      there is a lot to consider when designing a software/hardware system that can scale.
+      Expect to spend quite a bit of time on this
 - Considerations:
     - Scalability
         - Distill large data sets to single values
@@ -1498,8 +1498,8 @@ You're never really done.
             - [Emacs Tutorial (Beginners) -Part 3- Expressions, Statements, ~/.emacs file, and packages](https://www.youtube.com/watch?v=paSgzPso-yc)
         - [Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs (video)](https://www.youtube.com/watch?v=JWD1Fpdd4Pc)
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
-    - [The Absolute Beginner's Guide to Emacs (video by David Wilson)](https://www.youtube.com/watch?v=48JlgiBpw_I&t=0s)
-    - [The Absolute Beginner's Guide to Emacs (notes by David Wilson)](https://systemcrafters.net/emacs-essentials/absolute-beginners-guide-to-emacs/)
+	- [The Absolute Beginner's Guide to Emacs (video by David Wilson)](https://www.youtube.com/watch?v=48JlgiBpw_I&t=0s)
+	- [The Absolute Beginner's Guide to Emacs (notes by David Wilson)](https://systemcrafters.net/emacs-essentials/absolute-beginners-guide-to-emacs/)
 
 - ### Unix command line tools
     - I filled in the list below from good tools.
@@ -1637,24 +1637,24 @@ You're never really done.
 - ### Balanced search trees
     - Know at least one type of balanced binary tree (and know how it's implemented):
     - "Among balanced search trees, AVL and 2/3 trees are now passé and red-black trees seem to be more popular.
-      A particularly interesting self-organizing data structure is the splay tree, which uses rotations
-      to move any accessed key to the root." - Skiena
+        A particularly interesting self-organizing data structure is the splay tree, which uses rotations
+        to move any accessed key to the root." - Skiena
     - Of these, I chose to implement a splay tree. From what I've read, you won't implement a
-      balanced search tree in your interview. But I wanted exposure to coding one up
-      and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code
+        balanced search tree in your interview. But I wanted exposure to coding one up
+        and let's face it, splay trees are the bee's knees. I did read a lot of red-black tree code
         - Splay tree: insert, search, delete functions
-          If you end up implementing a red/black tree try just these:
+        If you end up implementing a red/black tree try just these:
         - Search and insertion functions, skipping delete
     - I want to learn more about B-Tree since it's used so widely with very large data sets
     - [Self-balancing binary search tree](https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree)
 
     - **AVL trees**
         - In practice:
-          From what I can tell, these aren't used much in practice, but I could see where they would be:
-          The AVL tree is another structure supporting O(log n) search, insertion, and removal. It is more rigidly
-          balanced than red–black trees, leading to slower insertion and removal but faster retrieval. This makes it
-          attractive for data structures that may be built once and loaded without reconstruction, such as language
-          dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter)
+            From what I can tell, these aren't used much in practice, but I could see where they would be:
+            The AVL tree is another structure supporting O(log n) search, insertion, and removal. It is more rigidly
+            balanced than red–black trees, leading to slower insertion and removal but faster retrieval. This makes it
+            attractive for data structures that may be built once and loaded without reconstruction, such as language
+            dictionaries (or program dictionaries, such as the opcodes of an assembler or interpreter)
         - [MIT AVL Trees / AVL Sort (video)](https://www.youtube.com/watch?v=FNeL18KsWPc&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6)
         - [AVL Trees (video)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [AVL Tree Implementation (video)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
@@ -1663,9 +1663,9 @@ You're never really done.
 
     - **Splay trees**
         - In practice:
-          Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
-          data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
-          networking and file system code) etc
+            Splay trees are typically used in the implementation of caches, memory allocators, routers, garbage collectors,
+            data compression, ropes (replacement of string used for long text strings), in Windows NT (in the virtual memory,
+            networking and file system code) etc
         - [CS 61B: Splay Trees (video)](https://archive.org/details/ucberkeley_webcast_G5QIXywcJlY)
         - MIT Lecture: Splay Trees:
             - Gets very mathy, but watch the last 10 minutes for sure.
@@ -1674,13 +1674,13 @@ You're never really done.
     - **Red/black trees**
         - These are a translation of a 2-3 tree (see below).
         - In practice:
-          Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
-          Not only does this make them valuable in time-sensitive applications such as real-time applications,
-          but it makes them valuable building blocks in other data structures that provide worst-case guarantees;
-          for example, many data structures used in computational geometry can be based on red-black trees, and
-          the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In version 8 of Java,
-          the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
-          hashcodes, a Red-Black tree is used
+            Red–black trees offer worst-case guarantees for insertion time, deletion time, and search time.
+            Not only does this make them valuable in time-sensitive applications such as real-time applications,
+            but it makes them valuable building blocks in other data structures that provide worst-case guarantees;
+            for example, many data structures used in computational geometry can be based on red-black trees, and
+            the Completely Fair Scheduler used in current Linux kernels uses red–black trees. In version 8 of Java,
+            the Collection HashMap has been modified such that instead of using a LinkedList to store identical elements with poor
+            hashcodes, a Red-Black tree is used
         - [Aduni - Algorithms - Lecture 4 (link jumps to the starting point) (video)](https://youtu.be/1W3x0f_RmUo?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3871)
         - [Aduni - Algorithms - Lecture 5 (video)](https://www.youtube.com/watch?v=hm2GHwyKF1o&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&index=5)
         - [Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
@@ -1689,7 +1689,7 @@ You're never really done.
 
     - **2-3 search trees**
         - In practice:
-          2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees).
+            2-3 trees have faster inserts at the expense of slower searches (since height is more compared to AVL trees).
         - You would use 2-3 trees very rarely because its implementation involves different types of nodes. Instead, people use Red-Black trees.
         - [23-Tree Intuition and Definition (video)](https://www.youtube.com/watch?v=C3SsdUqasD4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=2)
         - [Binary View of 23-Tree](https://www.youtube.com/watch?v=iYvBtGKsqSg&index=3&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
@@ -1697,10 +1697,10 @@ You're never really done.
 
     - **2-3-4 Trees (aka 2-4 trees)**
         - In practice:
-          For every 2-4 trees, there are corresponding red–black trees with data elements in the same order. The insertion and deletion
-          operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
-          important tool for understanding the logic behind red-black trees, and this is why many introductory algorithm texts introduce
-          2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
+            For every 2-4 trees, there are corresponding red–black trees with data elements in the same order. The insertion and deletion
+            operations on 2-4 trees are also equivalent to color-flipping and rotations in red–black trees. This makes 2-4 trees an
+            important tool for understanding the logic behind red-black trees, and this is why many introductory algorithm texts introduce
+            2-4 trees just before red–black trees, even though **2-4 trees are not often used in practice**.
         - [CS 61B Lecture 26: Balanced Search Trees (video)](https://archive.org/details/ucberkeley_webcast_zqrqYXkth6Q)
         - [Bottom Up 234-Trees (video)](https://www.youtube.com/watch?v=DQdMYevEyE4&index=4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [Top Down 234-Trees (video)](https://www.youtube.com/watch?v=2679VQ26Fp4&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=5)
@@ -1714,18 +1714,18 @@ You're never really done.
     - **B-Trees**
         - Fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor).
         - In Practice:
-          B-trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
-          its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
-          block in a particular file. The basic problem is turning the file block address into a disk block
-          (or perhaps to a cylinder head sector) address
+            B-trees are widely used in databases. Most modern filesystems use B-trees (or Variants). In addition to
+            its use in databases, the B-tree is also used in filesystems to allow quick random access to an arbitrary
+            block in a particular file. The basic problem is turning the file block address into a disk block
+            (or perhaps to a cylinder head sector) address
         - [B-Tree](https://en.wikipedia.org/wiki/B-tree)
         - [B-Tree Datastructure](http://btechsmartclass.com/data_structures/b-trees.html)
         - [Introduction to B-Trees (video)](https://www.youtube.com/watch?v=I22wEC1tTGo&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6&index=6)
         - [B-Tree Definition and Insertion (video)](https://www.youtube.com/watch?v=s3bCdZGrgpA&index=7&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [B-Tree Deletion (video)](https://www.youtube.com/watch?v=svfnVhJOfMc&index=8&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
         - [MIT 6.851 - Memory Hierarchy Models (video)](https://www.youtube.com/watch?v=V3omVLzI0WE&index=7&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
-          - covers cache-oblivious B-Trees, very interesting data structures
-          - the first 37 minutes are very technical, and may be skipped (B is block size, cache line size)
+                - covers cache-oblivious B-Trees, very interesting data structures
+                - the first 37 minutes are very technical, and may be skipped (B is block size, cache line size)
         - [[Review] B-Trees (playlist) in 26 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 
 
