@@ -85,7 +85,7 @@ Có rất nhiều điều để học trong một chương trình Khoa học Má
 
 - [Độ phức tạp của thuật toán / Big-O / Phân tích tiệm cận](#độ-phức-tạp-của-thuật-toán--big-o--phân-tích-tiệm-cận)
 - [Cấu trúc dữ liệu](#cấu-trúc-dữ-liệu)
-    - [arrays](#arrays)
+    - [Arrays](#arrays)
     - [Linked Lists](#linked-lists)
     - [Stack](#stack)
     - [Queue](#queue)
@@ -580,13 +580,13 @@ nếu bạn có thể xác định độ phức tạp thời gian chạy của c
 
 ## Cấu trúc dữ liệu
 
-- ### arrays
-    - [ ] Về arrays:
-    	- [arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
-        - [arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-        - [UC Berkeley CS61B - Linear and Multi-Dim arrays - Mảng tuyến tính và mảng đa chiều(video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Dynamic arrays - Mảng tùy biến (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
-        - [Jagged arrays - Mảng trong mảng (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+- ### Arrays
+    - [ ] Về Arrays:
+    	- [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
+        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays - Mảng tuyến tính và mảng đa chiều(video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+        - [Dynamic Arrays - Mảng tùy biến (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [Jagged Arrays - Mảng trong mảng (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Cấp phát vector (Mảng có thể thay đổi với khả năng tự điều chỉnh kích cỡ):
         - [ ] Tập sử dụng mảng và con trỏ, dùng phép toán con trỏ để nhảy tới một chỉ mục (index) thay vì sử dụng chỉ mục.
         - [ ] Tạo mảng mới với vùng nhớ được cấp phát sẵn
@@ -623,8 +623,8 @@ nếu bạn có thể xác định độ phức tạp thời gian chạy của c
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - Không cần xem toàn bộ video, chỉ phần cấu trúc Node và cấp phát vùng nhớ.
     - [ ] Danh sách liên kết so sánh với Mảng:
-        - [Core Linked Lists Vs arrays - Danh sách liên kết Vs Mảng (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
-        - [In The Real World Linked Lists Vs arrays - Trong thực tế, Danh sách liên kết Vs Mảng (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+        - [Core Linked Lists Vs Arrays - Danh sách liên kết Vs Mảng (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [In The Real World Linked Lists Vs Arrays - Trong thực tế, Danh sách liên kết Vs Mảng (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [Why you should avoid linked lists - Tại sao bạn nên tránh danh sách liên kết(video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Ghi chú: Bạn cần kiến thức về con trỏ trỏ về con trỏ:
         (Khi bạn chuyển một con trỏ vào trong 1 thân hàm khiến thay đổi địa chỉ mà con trỏ trỏ về)
@@ -894,7 +894,7 @@ nếu bạn có thể xác định độ phức tạp thời gian chạy của c
         - [ ] [3. Sắp xếp cơ số ưu tiên chữ số thấp nhất (Least Significant Digit First String Radix Sort)](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
         - [ ] [4. Sắp xếp cơ số ưu tiên chữ số cao nhất (Most Significant Digit First String Radix Sort)](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
         - [ ] [5. 3-way Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5):  Sắp xếp cơ số kết hợp sắp xếp nhanh, trong đó, chỉ chia mảng ban đầu thành 3 nhóm (thay vì chia theo R nhóm trong sắp xếp cơ số thông thường).
-        - [ ] [6. Mảng hậu tố (Suffix arrays)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [6. Mảng hậu tố (Suffix Arrays)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sắp xếp cơ số (Radix Sort)](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Sắp xếp cơ số (Radix Sort)(video)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Sắp xếp cơ số, sắp xếp đếm (Counting Sort, thực thi thời gian tuyến tính, nhưng có nhiều giới hạn đối với dự liệu)- video](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -1171,7 +1171,7 @@ Bạn sẽ biết thêm nhiều ứng dụng của đồ thị trong sách của
 
 
 - ### Tìm kiếm và xử lý chuỗi
-    - [ ] [Sedgewick - Mảng tiền tố (Suffix arrays) (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick - Mảng tiền tố (Suffix Arrays) (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick - Tìm và thay chuỗi (Substring Search) (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. Giới thiệu tìm và thay chuỗi (Introduction to Substring Search)](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
         - [ ] [2. Tìm và thay chuỗi theo Brute-Force (Brute-Force Substring Search)](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)

@@ -685,11 +685,11 @@ https://github.com/jwasham/coding-interview-university
  
 - ### অ্যারে
     - [ ] অ্যারে সম্পর্কে:
-    	- [arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
-        - [arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-        - [UC Berkeley CS61B - Linear and Multi-Dim arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (১৫ মিনিট ৩২ সেকেন্ড থেকে দেখা শুরু করুন)
-        - [Dynamic arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
-        - [Jagged arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+    	- [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
+        - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (১৫ মিনিট ৩২ সেকেন্ড থেকে দেখা শুরু করুন)
+        - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] New raw data array with allocated memory
@@ -725,8 +725,8 @@ https://github.com/jwasham/coding-interview-university
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - পুরো ভিডিওটি নয়, নোড স্ট্রাকট এবং মেমরি বরাদ্দ সম্পর্কে কিছু অংশ
     - [ ] লিঙ্কড লিস্ট বনাম অ্যারে:
-        - [Core Linked Lists Vs arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
-        - [In The Real World Linked Lists Vs arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [Why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)

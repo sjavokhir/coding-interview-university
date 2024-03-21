@@ -105,7 +105,7 @@ Facebook та Microsoft, відрізняють розробку програм�
 - [The Daily Plan](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
-    - [arrays](#arrays)
+    - [Arrays](#arrays)
     - [Linked Lists](#linked-lists)
     - [Stack](#stack)
     - [Queue](#queue)
@@ -551,13 +551,13 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 ## Data Structures
 
-- ### arrays
+- ### Arrays
     - Implement an automatically resizing vector.
     - [ ] Description:
-        - [arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UCBerkley CS61B - Linear and Multi-Dim arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-        - [Dynamic arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
+        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] new raw data array with allocated memory
@@ -591,9 +591,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs arrays:
-        - [Core Linked Lists Vs arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+    - [ ] Linked List vs Arrays:
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
@@ -846,7 +846,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] [3. Least Significant Digit First String Radix Sort](https://www.youtube.com/watch?v=2pGVq_BwPKs&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=4)
         - [ ] [4. Most Significant Digit First String Radix Sort](https://www.youtube.com/watch?v=M3cYNY90R6c&index=3&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
         - [ ] [5. 3 Way Radix Quicksort](https://www.youtube.com/watch?v=YVl58kfE6i8&index=2&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53)
-        - [ ] [6. Suffix arrays](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=1)
+        - [ ] [6. Suffix Arrays](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=1)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -1142,7 +1142,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - can you implement them?
 
 - ### String searching & manipulations
-    - [ ] [Sedgewick - Suffix arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
+    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg)
     - [ ] [Sedgewick - Substring Search (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
         - [ ] [1. Introduction to Substring Search](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5)
         - [ ] [2. Brute-Force Substring Search](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4)

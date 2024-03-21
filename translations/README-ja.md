@@ -494,7 +494,7 @@ Anki 形式のフラッシュカード データベース: https://ankiweb.net/s
 	- [ ] 配列について:
 		- [アレイ CS50 ハーバード大学](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
 			- [配列 (動画)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-			- [UC Berkeley CS61B - Linear and Multi-Dim arrays (動画) (15 分 32 秒から視聴開始)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+			- [UC Berkeley CS61B - Linear and Multi-Dim Arrays (動画) (15 分 32 秒から視聴開始)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
 			- [動的配列 (動画)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
 			- [ギザギザ配列 (動画)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
 	- [ ] ベクトルを実装します (自動サイズ変更を備えた可変配列):

@@ -559,8 +559,8 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - tüm video değil, Node yapısı ve bellek ayırma için olan bölümler.
     - [ ] Bağlı Listeler vs Diziler:
-        - [Core Linked Lists Vs arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [neden bağlı listelerden kaçınmalısınız (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Pointer için pointer bilgisine ihtiyacınız var:
         (bir pointer'ı bir fonksiyona yolladığınızda, bu pointer'ın işaret ettiği adresi değiştirebilir.)
@@ -833,7 +833,7 @@ Kodları beyaz tahtaya ya da kağıda yazın, bilgisayara değil. Örnek girdile
         - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
         - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
         - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-        - [ ] [6. Suffix arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -1074,7 +1074,7 @@ Graflar, bilgisayar bilimlerinde birçok sorunu temsil etmek için kullanılabil
     - Can be gleaned from Operating System videos
 
 - ### String searching & manipulations
-    - [ ] [Sedgewick - Suffix arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick - Substring Search (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
         - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)

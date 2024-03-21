@@ -94,7 +94,7 @@ Liste (Netzwerke, Sicherheit) ansehen.
 - [Der Tagesplan](#the-daily-plan)
 - [Algorithmische Komplexität / Big-O (Groß-O Notation) / Asymptotische Analyse](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Datenstrukturen](#data-structures)
-    - [arrays (Felder)](#arrays)
+    - [Arrays (Felder)](#arrays)
     - [Linked Lists (verkettete Listen)](#linked-lists)
     - [Stack (Stapel)](#stack)
     - [Queue (Wartenschlangen)](#queue)
@@ -207,8 +207,8 @@ Groß-O, nichts über Bäume, oder wie man einen Graphen durchläuft. Wenn ich e
 dann wäre der nicht besonders gut geworden, so viel kann ich dir sagen. Jede Datenstruktur die jemals benutzt habe war 
 direkt in der Programmiersprache eingebaut, und ich hatte keine Ahnung wie sie funktioniert haben. Ich muss niemals 
 Speichermanagement betreiben, außer einer der Prozesse, die ich ausgeführt hatte hat einen "out of memory" Fehler gehabt. 
-Und wenn das passiert ist, musste ich einen Umweg finden. Ich habe ein paar mehrdimensionale arrays in meinen Leben benutzt
-und ein paar Tausend assoziative arrays, aber ich habe nie selbst eine Datenstruktur von Grund auf neu geschrieben. 
+Und wenn das passiert ist, musste ich einen Umweg finden. Ich habe ein paar mehrdimensionale Arrays in meinen Leben benutzt
+und ein paar Tausend assoziative Arrays, aber ich habe nie selbst eine Datenstruktur von Grund auf neu geschrieben. 
 
 Es ist ein großer Plan. Es könnte mehrere Monate dauern. Falls dir schon vieles von dem bekannt ist, wird es dich viel 
 weniger Zeit kosten.
@@ -566,15 +566,15 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
 <details>
 <summary>Datenstrukturen</summary>
 
-- ### arrays (Felder)
+- ### Arrays (Felder)
 	- implementiere einen automatisch mitwachsenden Vektor 
     - [ ] Beschreibung:
-        - [arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UC Berkeley CS61B - Linear and Multi-Dim arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Dynamic arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implementiere ein Vektor (veränderbares Array, das automatisch seine Größe verändert):
-        - [ ] Übe arrays und Pointer (Zeiger) zu coden, und benutze Pointerberechnung, um ein Element aus einem Array auszuwählen statt den Index zu benutzen.
+        - [ ] Übe Arrays und Pointer (Zeiger) zu coden, und benutze Pointerberechnung, um ein Element aus einem Array auszuwählen statt den Index zu benutzen.
         - [ ] neues Rohdaten-Array mit allokierten Speicher
             - man kann intern ein int Array dafür verwenden, aber nicht die Features davon
             - fang an mit der Größe 16, oder wenn die Startnummer schön größer ist, benutze Zweier-Potenzen - 16, 32, 64, 128
@@ -607,9 +607,9 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - nicht das ganze Video nur die Teile über Knotenstruktur und Speicherverwaltung.
-    - [ ] Linked Lists vs arrays:
-        - [Core Linked Lists Vs arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+    - [ ] Linked Lists vs Arrays:
+        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Achtung:  du brauchst Wissen über Pointer auf Pointer:
         (für den Fall, dass man einen Pointer an eine Funktion übergibt und die Funktion die Adresse verändern kann, zu der der Pointer zeigt)
@@ -647,7 +647,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - enqueue(value) - fügt Wert am Ende ein
         - dequeue() - gibt das älteste Element (am Anfang der Liste) zurück und löscht es
         - empty()
-    - [ ] Implementierung mittels arrays fester Größe:
+    - [ ] Implementierung mittels Arrays fester Größe:
         - enqueue(value) - fügt ein Element am Ende des verfügbaren Speicherplatzes ein
         - dequeue() - gibt das älteste Element zurück und löscht es
         - empty()
@@ -831,7 +831,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [Stability In Sorting Algorithms](http://stackoverflow.com/questions/1517793/stability-in-sorting-algorithms)
         - [Stability In Sorting Algorithms](http://www.geeksforgeeks.org/stability-in-sorting-algorithms/)
         - [Sorting Algorithms - Stability](http://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf)
-    - [ ] Welche Algorithmen können mit verketteten Listen genutzt werden? Welche mit arrays? Welche bei beiden?
+    - [ ] Welche Algorithmen können mit verketteten Listen genutzt werden? Welche mit Arrays? Welche bei beiden?
         - Ich würde nicht empfehlen, verkettete Listen zu sortieren, aber Mergesort ist machbar.
         - [Merge Sort For Linked List](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
@@ -894,7 +894,7 @@ Schreib Code auf einer Tafel oder auf Papier, aber nicht am Computer. Teste mit 
         - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
         - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
         - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-        - [ ] [6. Suffix arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -1167,7 +1167,7 @@ Graphen können genutzt werden, um damit viele verschiedene Probleme in der Info
     - kann von Betriebssystem Videos gelernt werden
 
 - ### Stringsuche und -manipulation
-    - [ ] [Sedgewick - Suffix arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick - Substring Search (videos)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
         - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)

@@ -108,7 +108,7 @@ software development/ruoli dell'engineering.
 
 - [Complessità degli Algoritmi / O-Grande / Stima Asintotica](#complessita-degli-algoritmi--o-grande--stima-asintotica)
 - [Strutture Dati](#strutture-dati)
-    - [arrays](#arrays)
+    - [Arrays](#arrays)
     - [Linked Lists](#linked-lists)
     - [Stack](#stack)
     - [Queue](#queue)
@@ -584,12 +584,12 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
 
 ## Strutture Dati
 
-- ### arrays
-    - [ ] Riguardo gli arrays:
-        - [arrays (Video in Inglese)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-        - [UC Berkeley CS61B - arrays Lineari e Multi-Dimensionali (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Comincia il video da 15m 32s)
-        - [arrays Dinamici (Video in Inglese)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
-        - [Matrici Irregolari o Jagged arrays (Video in Inglese)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+- ### Arrays
+    - [ ] Riguardo gli Arrays:
+        - [Arrays (Video in Inglese)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+        - [UC Berkeley CS61B - Arrays Lineari e Multi-Dimensionali (Video in Inglese)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Comincia il video da 15m 32s)
+        - [Arrays Dinamici (Video in Inglese)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+        - [Matrici Irregolari o Jagged Arrays (Video in Inglese)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] Implementare un vettore (array mutabile con grandezza automatica):
         - [ ] Programma usando arrays, puntatori e l'aritmetica dei puntatori per raggiungere un index, piuttosto che usare l'indexing.
         - [ ] Array con dati non raffinati (raw) e memoria allocata
@@ -624,9 +624,9 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (Video in Inglese)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - non il video intero, ma solo nozioni sulla struttura del nodo e l'allocazione della memoria
-    - [ ] Linked List vs arrays:
-        - [Core Linked Lists Vs arrays (Video in Inglese)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
-        - [Nel Mondo Reale, Linked Lists Vs arrays (Video in Inglese)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
+    - [ ] Linked List vs Arrays:
+        - [Core Linked Lists Vs Arrays (Video in Inglese)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+        - [Nel Mondo Reale, Linked Lists Vs Arrays (Video in Inglese)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [Perché dovresti evitare le Linked Lists (Video in Inglese)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Ti aiuto un po': hai bisogno della conoscenza riguardo puntatori di puntatori:
         (per quando passi un puntatore ad una funzione che potrebbe cambiare l'indirizzo a cui il puntatore punta)
@@ -898,7 +898,7 @@ per testare la tua capacità nell'identificare la complessità del runtime di di
         - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
         - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
         - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/lecture/algorithms-part2/3-way-radix-quicksort-crkd5)
-        - [ ] [6. Suffix arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Radix Sort (Video in Inglese)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Radix Sort, Counting Sort (linear time given constraints) (Video in Inglese)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -1139,7 +1139,7 @@ I grafi possono essere usati per rappresentare molti problemi in informatica, pe
     - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### Ricerca Tramite Pattern-Matching e Manipolazione delle Stringhe
-    - [ ] [Sedgewick - Suffix arrays (Video in Inglese)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick - Suffix Arrays (Video in Inglese)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick - Substring Search (video)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. Introduction to Substring Search](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
         - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)

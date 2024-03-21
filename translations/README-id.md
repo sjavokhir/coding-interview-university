@@ -41,7 +41,7 @@ Jika Anda ingin menjadi insinyur keandalan atau insinyur operasi, pelajari lebih
 - [Rencana Harian](#rencana-harian)
 - [Kompleksitas Algoritma / Big-O / Analisis Asimptotik](#kompleksitas-algoritma--big-o--analisis-asimptotik)
 - [Struktur Data](#struktur-data)
-    - [arrays](#arrays)
+    - [Arrays](#arrays)
     - [Linked Lists](#linked-lists)
     - [Stack](#stack)
     - [Queue](#queue)
@@ -446,7 +446,7 @@ Menulis kode pada papan tulis atau kertas, bukan komputer. Uji dengan beberapa s
 
 ## Struktur Data
 
-- ### arrays
+- ### Arrays
     - Menerapkan vektor yang mengubah ukuran secara otomatis.
     - [ ] Deskripsi:
         - [Array (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
