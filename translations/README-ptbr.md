@@ -90,7 +90,7 @@ Se você quer ser um engenheiro de confiabilidade ou engenheiro de sistemas, est
 - [Conhecimento Prévio](#conhecimento-prévio)
 - [Complexidade Algorítmica / Big-O / Análise assintótica](#complexidade-algorítmica--big-o--análise-assintótica)
 - [Estrutura de Dados](#estrutura-de-dados)
-    - [Vetores (Arrays)](#arrays)
+    - [Vetores (arrays)](#arrays)
     - [Listas Ligadas (Linked List)](#listas-ligadas)
     - [Pilha (Stack)](#stack)
     - [Fila (Queue)](#queue-fila)
@@ -530,13 +530,13 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
 
 ## Estrutura de Dados
 
-- ### Arrays
+- ### arrays
     - Implementar um vetor de redimensionamento automático.
     - [ ] Descrição:
-        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s) (Arrays lineares e multidimensionais - vídeo)
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays) (Arrays Dinâmicos - vídeo)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g) (Arrays Multidimensionais - vídeo)
+        - [arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [UCBerkley CS61B - Linear and Multi-Dim arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s) (arrays lineares e multidimensionais - vídeo)
+        - [Dynamic arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays) (arrays Dinâmicos - vídeo)
+        - [Jagged arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g) (arrays Multidimensionais - vídeo)
     - [ ] Implementar um vetor (array mutável com redimensionamento automático):
         - [ ] Praticar programação usando arrays e ponteiros, e matemática de ponteiros para pular para um índice ao invés de usar indexação.
         - [ ] novo array de dados brutos com memória alocada
@@ -571,9 +571,9 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) (Código em C - vídeo)
             - não o vídeo inteiro, apenas as partes sobre estrutura de nodes (nós) e alocação de memória.
-    - [ ] Listas Ligadas vs Arrays:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays) (Fundamentos de Listas Ligadas vs Arrays - vídeo)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays) (No Mundo Real: Listas Ligadas vs Arrays - vídeo)
+    - [ ] Listas Ligadas vs arrays:
+        - [Core Linked Lists Vs arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays) (Fundamentos de Listas Ligadas vs arrays - vídeo)
+        - [In The Real World Linked Lists Vs arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays) (No Mundo Real: Listas Ligadas vs arrays - vídeo)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo) (por que você deve evitar listas ligadas - vídeo)
     - [ ] Peguei vocês: você precisa de conhecimento de ponteiro para ponteiro:
         (para quando você passar um ponteiro para uma funcção que poderá mudar o endereço para o qual o ponteiro aponta)
@@ -826,7 +826,7 @@ Escreva código em um quadro branco ou papel, não em um computador. Teste com u
         - [ ] [3. Least Significant Digit First String Radix Sort](https://www.youtube.com/watch?v=2pGVq_BwPKs&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=4) (Radix sort de string de Dígito-Menos-Significativo-Primeiro)
         - [ ] [4. Most Significant Digit First String Radix Sort](https://www.youtube.com/watch?v=M3cYNY90R6c&index=3&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53) (Radix sort de string de Dígito-Mais-Significativo-Primeiro)
         - [ ] [5. 3 Way Radix Quicksort](https://www.youtube.com/watch?v=YVl58kfE6i8&index=2&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53) (Quicksort Radix de 3 vias)
-        - [ ] [6. Suffix Arrays](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=1) (Arrays de Sufixos)
+        - [ ] [6. Suffix arrays](https://www.youtube.com/watch?v=HKPrVm5FWvg&list=PLe-ggMe31CTcNvUX9E3tQeM6ntrdR8e53&index=1) (arrays de Sufixos)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort) (Radix Sort)
     - [ ] [Radix Sort (vídeo)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) (Radix Sort, Ordenação por Contagem (tempo linear dadas restrições))
@@ -1122,7 +1122,7 @@ Você ganhará mais prática com grafos no livro do Skiena (veja a seção de li
     - você pode as implementar?
 
 - ### Busca de string e manipulações
-    - [ ] [Sedgewick - Suffix Arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg) (Sedgewick - Arrays de Sufixo - vídeo)
+    - [ ] [Sedgewick - Suffix arrays (video)](https://www.youtube.com/watch?v=HKPrVm5FWvg) (Sedgewick - arrays de Sufixo - vídeo)
     - [ ] [Sedgewick - Substring Search (videos)](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5) (Sedgewick - Busca de Substring - vídeos)
         - [ ] [1. Introduction to Substring Search](https://www.youtube.com/watch?v=2LvvVFCEIv8&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=5) (1. Introdução à Busca de Substring)
         - [ ] [2. Brute-Force Substring Search](https://www.youtube.com/watch?v=CcDXwIGEXYU&list=PLe-ggMe31CTdAdjXB3lIuf2maubzo9t66&index=4) (Busca de Substring por Força Bruta)

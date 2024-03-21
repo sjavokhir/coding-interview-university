@@ -31,7 +31,7 @@
 - [Το καθημερινό πλάνο](#Το-καθημερινό-πλάνο)
 - [Αλγοριθμική πολυπλοκότητα / Big-O / Ασυμπτωτική ανάλυση](#Αλγοριθμική-πολυπλοκότητα--Big-O--Ασυμπτωτική-ανάλυση)
 - [Data Structures](#data-structures)
-    - [Arrays](#arrays)
+    - [arrays](#arrays)
     - [Linked Lists](#linked-lists)
     - [Stack](#stack)
     - [Queue](#queue)
@@ -467,12 +467,12 @@
     - Υλοποίησε μία λίστα, η οποία αλλάζει αυτόματα μέγεθος.
     - [ ] Περιγραφή:
         - [Πίνακες(EN) (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UCBerkley CS61B - Linear and Multi-Dim Arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
-        - [Basic Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
+        - [UCBerkley CS61B - Linear and Multi-Dim arrays (video)](https://youtu.be/Wp8oiO_CZZE?t=15m32s)
+        - [Basic arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Basic-arrays/149042/177104-4.html)
         - [Multi-dim (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Multidimensional-arrays/149042/177105-4.html)
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
+        - [Dynamic arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Jagged arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [Jagged arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
         - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
     - [ ] Υλοποίησε μία συλλογή (ευμετάβλητο πίνακα με αυτόματη αλλαγή μεγέθους):
         - [ ] Κάνε πρακτική σε κώδικα χρησιμοποιώντας πίνακες και δείκτες, και pointer math για να πας σε ένα δείκτη από το να χρησιμοποιήσεις ευρετηρίαση.
@@ -507,9 +507,9 @@
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs Arrays:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+    - [ ] Linked List vs arrays:
+        - [Core Linked Lists Vs arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [In The Real World Linked Lists Vs arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)

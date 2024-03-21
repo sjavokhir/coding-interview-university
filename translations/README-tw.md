@@ -192,7 +192,7 @@
 
 ## Why use it?
 
-當我開始這項計畫的時候，我不知道Stack與Heap的差別，不知道時間複雜度(Big-O)，不知道樹狀結構(Tree)，也不知道如何遍歷一個圖(Graph)。過去如果我需要寫一個排序演算法(Sorting Algorithm)，那個code一定是個災難。我過去都用程式語言中內建的資料結構(Data Structure)，對於資料結構裡面的實作方法跟原理我完全沒有任何的概念。除非我的程式碰到了"out of memory"的錯誤我才會去找解決方法，否則我從不特別去花費心思管理程式中的記憶體配置。雖然我有用過多維陣列(Multidimensional Arrays)跟關聯陣列(Associative Arrays)，但我從來沒有自己時做過資料結構。
+當我開始這項計畫的時候，我不知道Stack與Heap的差別，不知道時間複雜度(Big-O)，不知道樹狀結構(Tree)，也不知道如何遍歷一個圖(Graph)。過去如果我需要寫一個排序演算法(Sorting Algorithm)，那個code一定是個災難。我過去都用程式語言中內建的資料結構(Data Structure)，對於資料結構裡面的實作方法跟原理我完全沒有任何的概念。除非我的程式碰到了"out of memory"的錯誤我才會去找解決方法，否則我從不特別去花費心思管理程式中的記憶體配置。雖然我有用過多維陣列(Multidimensional arrays)跟關聯陣列(Associative arrays)，但我從來沒有自己時做過資料結構。
 
 這是個遠大的計畫，或許要花上你數個月的時間。如果你對其中大部分的東西已經很熟悉的話，那麼執行這項計畫所花費的時間將減少許多。
 
@@ -487,12 +487,12 @@
 - ### 陣列
     - 實作一個可以自動調整大小的陣列(動態陣列vector)
     - [ ] (動態)陣列背後原理:
-        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Basic Arrays (video)]()
+        - [arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [UC Berkeley CS61B - Linear and Multi-Dim arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+        - [Basic arrays (video)]()
         - [Multi-dim (video)]()
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [Dynamic arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Jagged arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] 實作動態陣列(可變、可動態調整大小的陣列)
         - [ ] 練習在程式中用陣列以及指標，透過計算指標而存取該內容，而不是直接用索引。
         - [ ] 直接動態生成一個新的陣列
@@ -528,8 +528,8 @@
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
             - 沒有完整的code，裡面只包含了用struct實作節點的方式以及其記憶體配置。
     - [ ] Linked List vs 陣列:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+        - [Core Linked Lists Vs arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [In The Real World Linked Lists Vs arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] 小心!: 你需要一些關於指標的指標(Pointer to pointer)的知識:
         (當你回傳一個指標到函式，這個動作可能會改變指標所指向的地址)
@@ -798,7 +798,7 @@
         - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
         - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
         - [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-        - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [6. Suffix arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Radix Sort (影片)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Radix Sort, Counting Sort (linear time given constraints) (影片)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -1036,7 +1036,7 @@
     - 可以從作業系統的課程影片中學習
 
 - ### 字串搜尋演算法以及操作
-    - [ ] [Sedgewick-後綴陣列(Suffix Arrays)(影片)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick-後綴陣列(Suffix arrays)(影片)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick-子字串搜尋(影片)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1.子字串搜尋導論](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
         - [ ] [2.子字串搜尋-暴力法](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)

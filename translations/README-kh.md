@@ -79,7 +79,7 @@
 - [ផែនការប្រចាំថ្ងៃ](#the-daily-plan)
 - [ភាពស្មុគស្មាញនៃក្បួនដោះស្រាយ / Big-O / ការវិភាគ អាសុីមតុតិច (Asymptotic analysis)](#algorithmic-complexity--big-o--asymptotic-analysis)
 - [Data Structures](#data-structures)
-    - [Arrays](#arrays)
+    - [arrays](#arrays)
     - [Linked Lists](#linked-lists)
     - [Stack](#stack)
     - [Queue](#queue)
@@ -510,16 +510,16 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
 ### Data Structures
 ## រចនាសម្ព័ន្ធទិន្នន័យ
 
-- ### Arrays
+- ### arrays
     - អនុវត្តវ៉ិចទ័រប្តូរទំហំដោយស្វ័យប្រវត្តិ។
     - [ ] ការពិពណ៌នា៖
-        - [Arrays (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [arrays (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
         - [UC Berkeley CS61B - អារេ លីនែអ៊ែរ និង ពហុវិមាត្រ (វីដេអូ)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (ចាប់ផ្តើមមើលចាប់ពី ១៥នាទី ៣២វិនាទី)
-        - [Arrays ឌីណាមិចេ (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged Arrays (វីដេអូ)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [ ] អនុវត្តវ៉ិចទ័រ (បំលែង Arrays ដោយប្តូរទំហំស្វ័យប្រវត្តិ)៖
+        - [arrays ឌីណាមិចេ (វីដេអូ)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Jagged arrays (វីដេអូ)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+    - [ ] អនុវត្តវ៉ិចទ័រ (បំលែង arrays ដោយប្តូរទំហំស្វ័យប្រវត្តិ)៖
         - [ ] អនុវត្តការសរសេរកូដដោយប្រើArrays និង ទ្រនិចចង្អុល និង គណិតទ្រនិចដើម្បីលោតទៅសន្ទស្សន៍មួយ។
-        - [ ] Arrays ទិន្នន័យថ្មីដែលមានអង្គចងចាំបម្រុងទុក
+        - [ ] arrays ទិន្នន័យថ្មីដែលមានអង្គចងចាំបម្រុងទុក
             - អាចបែងចែកArraysនៅក្រោមក្រណាត់ដោយគ្រាន់តែមិនប្រើលក្ខណៈពិសេសរបស់វា
             - ចាប់ផ្តើមជាមួយលេខ ១៦ ឬបើលេខចាប់ផ្តើមធំជាងប្រើថាមពល ២ - ១៦, ៣២, ៦៤, ១២៨
         - [ ] size() - ចំនួនធាតុ
@@ -553,9 +553,9 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
         - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
     - [ ] [កូដ C (វីដេអូ)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
         - មិនមែនវីដេអូទាំងមូលទេគឺគ្រាន់តែជាផ្នែកអំពីរចនាសម្ព័ន្ធ (Data Structure) និងការបែងចែក Memory ។
-    - [ ] Linked List vs Arrays:
-        - [Core Linked Lists Vs Arrays (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [នៅក្នុងពិភពពិត Linked Lists Vs Arrays (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+    - [ ] Linked List vs arrays:
+        - [Core Linked Lists Vs arrays (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [នៅក្នុងពិភពពិត Linked Lists Vs arrays (វីដេអូ)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [ហេតុអ្វីអ្នកគួរចៀសវាង linked lists (វីដេអូ)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Gotcha: you need pointer to pointer knowledge:
         (សម្រាប់ពេលអ្នកហុច pointer ទៅមុខងារមួយដែលអាចផ្លាស់ប្តូរអាស័យដ្ឋានដែលព្រួញចង្អុល)
@@ -835,7 +835,7 @@ Data Structure ទាំងអស់ដែលខ្ញុំធ្លាប់�
         - [ ] [3. តម្រៀបខ្ទង់អក្សរដំបូងដែលមានខ្ទង់តិចបំផុត Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
         - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
         - [ ] [5. វិធី ៣ Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-        - [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [6. Suffix arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [Radix Sort (វីដេអូរ)](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [Radix Sort, Counting Sort (linear time given constraints) (វីដេអូរ)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -1079,7 +1079,7 @@ Graphs អាចត្រូវបានប្រើដើម្បីបង្�
     - អាចប្រមូលបាន Operating System videos
 
 - ### String searching & manipulations
-    - [ ] [Sedgewick - Suffix Arrays (វីដេអូ)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick - Suffix arrays (វីដេអូ)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick - Substring Search (វីដេអូ)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. Introduction to Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
         - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)

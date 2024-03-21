@@ -58,7 +58,7 @@
 
 - [算法复杂度 / Big-O / 渐进分析法](#算法复杂度--big-o--渐进分析法)
 - [数据结构](#数据结构)
-    - [数组（Arrays）](#数组arrays)
+    - [数组（arrays）](#数组arrays)
     - [链表（Linked Lists）](#链表linked-lists)
     - [堆栈（Stack）](#堆栈stack)
     - [队列（Queue）](#队列queue)
@@ -534,7 +534,7 @@
 
 ## 数据结构
 
-- ### 数组（Arrays）
+- ### 数组（arrays）
     - [ ] 介绍：
         - [数组 CS50 哈佛大学](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
         - [数组（视频）](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
@@ -845,7 +845,7 @@
         - [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
         - [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
         - [ ] [5. 3中基数快速排序](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-        - [ ] [6. 后继数组（Suffix Arrays）](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        - [ ] [6. 后继数组（Suffix arrays）](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [基数排序](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     - [ ] [基数排序（视频）](https://www.youtube.com/watch?v=xhr26ia4k38)
     - [ ] [基数排序, 计数排序 (线性时间内)（视频）](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -1085,7 +1085,7 @@
     - [ ] [如何编写测试](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### 字符串搜索和操作
-    - [ ] [Sedgewick──后缀数组（Suffix Arrays）（视频）](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick──后缀数组（Suffix arrays）（视频）](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     - [ ] [Sedgewick──子字符串搜寻（视频）](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. 子字符串搜寻导论](https://www.coursera.org/learn/algorithms-part2/lecture/n3ZpG/introduction-to-substring-search)
         - [ ] [2. 子字符串搜寻──暴力法](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)

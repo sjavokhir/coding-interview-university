@@ -103,7 +103,7 @@ Facebook и Microsoft различават софтуерното инженер
 
 - [Алгоритмична сложност / Big-O / Асимптотичен анализ](#алгоритмична-сложност--big-o--асимптотичен-анализ)
 - [Структури от данни](#структури-от-данни)
-  - [Масиви (Arrays)](#масиви)
+  - [Масиви (arrays)](#масиви)
   - [Свързани списъци(Linked Lists)](#свързани-списъци)
   - [Стек (Stack)](#стек)
   - [Опашка (Queue)](#опашка)
@@ -575,10 +575,10 @@ pобхождам графи. Ако трябваше да напиша сорт
 
 - ### Масиви
   - [ ] За масивите:
-    - [Arrays (клип)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
-    - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (клип)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-    - [Dynamic Arrays (клип)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
-    - [Jagged Arrays (клип)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+    - [arrays (клип)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
+    - [UC Berkeley CS61B - Linear and Multi-Dim arrays (клип)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+    - [Dynamic arrays (клип)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
+    - [Jagged arrays (клип)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
   - [ ] Имплементирайте вектор (променлив масив с автоматично преоразмеряване):
     - [ ] Упражнявайте се да пишете код, ползвайки масиви и пойнтъри. Ползвайте пойнтъри за преместване към индекс вместо индексиране
     - [ ] New raw data array with allocated memory
@@ -613,7 +613,7 @@ pобхождам графи. Ако трябваше да напиша сорт
     - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
   - [ ] [Код в C (клип)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - не цялото видео, само частите за Node structs и алокация на памет
   - [ ] Свързани списъци срещу масиви:
-    - [Core Linked Lists Vs Arrays (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
+    - [Core Linked Lists Vs arrays (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
     - [Свързани списъци срещу масиви в истинския свят (клип)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
     - [ ] [Защо да избягваме свързаните списъци (клип)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
     - [ ] Аха: трябват Ви pointer to pointer знания:
@@ -885,7 +885,7 @@ pобхождам графи. Ако трябваше да напиша сорт
         -   [ ] [3. Least Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/c1U7L/lsd-radix-sort)
         -   [ ] [4. Most Significant Digit First String Radix Sort](https://www.coursera.org/learn/algorithms-part2/lecture/gFxwG/msd-radix-sort)
         -   [ ] [5. 3 Way Radix Quicksort](https://www.coursera.org/learn/algorithms-part2/lecture/crkd5/3-way-radix-quicksort)
-        -   [ ] [6. Suffix Arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+        -   [ ] [6. Suffix arrays](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
     -   [ ] [Radix Sort](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#radixSort)
     -   [ ] [Radix Sort (video)](https://www.youtube.com/watch?v=xhr26ia4k38)
     -   [ ] [Radix Sort, Counting Sort (linear time given constraints) (video)](https://www.youtube.com/watch?v=Nz1KZXbghj8&index=7&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
