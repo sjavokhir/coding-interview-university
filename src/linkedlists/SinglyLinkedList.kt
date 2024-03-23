@@ -7,59 +7,61 @@ fun main() {
     list
         .pushBack(3)
         .pushBack(4)
+        .pushBack(5)
         .also { it.print() }
 
-    list.valueFromEnd(2).also { println(it) }
+    list.reverse().also { list.print() }
 }
-
-data class ListNode<T>(
-    val data: T,
-    var next: ListNode<T>? = null
-)
 
 class SinglyLinkedList<T> {
 
-    private var head: ListNode<T>? = null
-
-    private var size = 0
+    private var head: Node<T>? = null
 
     fun size(): Int {
-        return size
+        var currentNode = head
+        var count = 0
+
+        while (currentNode != null) {
+            count++
+            currentNode = currentNode.next
+        }
+
+        return count
     }
 
     fun isEmpty(): Boolean {
-        return size == 0
+        return head == null
     }
 
-    fun nodeAt(index: Int): ListNode<T>? {
-        if (index < 0 || index >= size) return null
-
+    fun nodeAt(index: Int): Node<T>? {
         var currentNode = head
         var currentIndex = 0
 
-        while (currentNode != null && currentIndex < index) {
+        while (currentNode != null) {
+            if (currentIndex == index) {
+                return currentNode
+            }
+
             currentNode = currentNode.next
             currentIndex++
         }
 
-        return currentNode
+        return null
     }
 
     fun valueAt(index: Int): T? {
-        return nodeAt(index)?.data
+        return nodeAt(index)?.value
     }
 
     fun pushFront(value: T): SinglyLinkedList<T> {
-        head = ListNode(value, head)
-        size++
+        head = Node(value, head)
         return this
     }
 
     fun popFront(): T? {
         if (isEmpty()) return null
-        val result = head?.data
+        val result = head?.value
         head = head?.next
-        size--
         return result
     }
 
@@ -69,41 +71,56 @@ class SinglyLinkedList<T> {
             return this
         }
 
-        val lastNode = nodeAt(size - 1)
-        val newNode = ListNode(value, null)
-
-        lastNode?.next = newNode
-        size++
+        val newNode = Node(value, null)
+        var currentNode = head
+        while (currentNode?.next != null) {
+            currentNode = currentNode.next
+        }
+        currentNode?.next = newNode
 
         return this
     }
 
     fun popBack(): T? {
-        if (size == 1) {
-            return popFront()
+        if (isEmpty()) return null
+
+        if (head?.next == null) return popFront()
+
+        var currentNode = head
+        var previousNode: Node<T>? = null
+
+        while (currentNode?.next != null) {
+            previousNode = currentNode
+            currentNode = currentNode.next
         }
 
-        val node = nodeAt(size - 2) ?: return null
-        val result = node.next?.data
-        node.next = null
-        size--
+        val result = currentNode?.value
+        previousNode?.next = null
+
         return result
     }
 
     fun front(): T? {
-        return head?.data
+        return head?.value
     }
 
     fun back(): T? {
-        return valueAt(size - 1)
+        var currentNode = head
+        while (currentNode?.next != null) {
+            currentNode = currentNode.next
+        }
+        return currentNode?.value
     }
 
     fun insert(index: Int, value: T) {
-        val afterNode = nodeAt(index - 1) ?: return
-        val newNode = ListNode(value, afterNode.next)
+        if (index == 0) {
+            pushFront(value)
+            return
+        }
 
+        val afterNode = nodeAt(index - 1) ?: return
+        val newNode = Node(value, afterNode.next)
         afterNode.next = newNode
-        size++
     }
 
     fun erase(index: Int) {
@@ -112,17 +129,48 @@ class SinglyLinkedList<T> {
             return
         }
 
-        val node = nodeAt(index - 1) ?: return
-        node.next = node.next?.next
-        size--
+        val afterNode = nodeAt(index - 1) ?: return
+        afterNode.next = afterNode.next?.next
     }
 
     fun valueFromEnd(position: Int): T? {
-        return valueAt(size - position)
+        return valueAt(size() - position)
     }
 
     fun reverse() {
+        var previousNode: Node<T>? = null
+        var nextNode: Node<T>?
+        var currentNode = head
 
+        while (currentNode != null) {
+            nextNode = currentNode.next
+            currentNode.next = previousNode
+            previousNode = currentNode
+            currentNode = nextNode
+        }
+
+        head = previousNode
+    }
+
+    fun removeValue(value: T) {
+        if (isEmpty()) return
+
+        if (head?.value == value) {
+            head = head?.next
+            return
+        }
+
+        var currentNode = head
+        var previousNode: Node<T>? = null
+
+        while (currentNode != null) {
+            if (currentNode.value == value) {
+                previousNode?.next = currentNode.next
+                return
+            }
+            previousNode = currentNode
+            currentNode = currentNode.next
+        }
     }
 
     fun print() {
